@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">eHeart BP</string>
     <string name="sign_up">Registrarse</string>
@@ -7,6 +6,11 @@
     <string name="password">contraseña</string>
     <string name="measurement">MEDICION DE PRESION SANGUINEA</string>
     <string name="capture">Capturar</string>
-    <string name="results">Resultados</string>
-    <string name="begin">INICIAR</string>
+    <string name="results">RESULTADOS</string>
+    <string name="obtain">OBTENER</string>
+    <string name="get_pressure">Obtener Medida</string>
+    <string name="record">Historial</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="settings">Ajustes</string>
+    <string name="close_session">Cerrar Sesión</string>
 </resources>

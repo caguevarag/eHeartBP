@@ -15,6 +15,6 @@ public class SignInActivity extends AppCompatActivity {
     }
 
     public void login(View view){
-        startActivity(new Intent(this,GetPressureActivity.class));
+        startActivity(new Intent(this,GoogleAccountsActivity.class));
     }
 }

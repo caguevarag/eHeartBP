@@ -22,7 +22,11 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".GetPressureActivity"></activity>
+        <activity android:name=".ObtainPressureActivity" />
+        <activity
+            android:name=".GoogleAccountsActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".ViewMeasurementActivity" />
     </application>
 
 </manifest>
