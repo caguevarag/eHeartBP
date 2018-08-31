@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eHeart BP</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="sign_in">Iniciar Sesión</string>
+    <string name="email">correo electrónico</string>
+    <string name="password">contraseña</string>
+    <string name="measurement">MEDICION DE PRESION SANGUINEA</string>
+    <string name="capture">Capturar</string>
+    <string name="results">Resultados</string>
+    <string name="begin">INICIAR</string>
+</resources>

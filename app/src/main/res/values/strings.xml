@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">eHeart BP</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="measurement">BLOOD PRESSURE MEASUREMENT</string>
+    <string name="capture">Capture</string>
+    <string name="results">Results</string>
+    <string name="begin">BEGIN</string>
+</resources>
