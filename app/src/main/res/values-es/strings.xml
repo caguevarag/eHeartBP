@@ -13,4 +13,7 @@
     <string name="statistics">Estadísticas</string>
     <string name="settings">Ajustes</string>
     <string name="close_session">Cerrar Sesión</string>
+    <string name="contacts">Contactos</string>
+    <string name="alerts">Alertas</string>
+    <string name="device">Dispositivo</string>
 </resources>

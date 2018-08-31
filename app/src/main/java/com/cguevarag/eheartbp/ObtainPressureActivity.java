@@ -29,22 +29,7 @@ public class ObtainPressureActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.get_pressure:
-                startActivity(new Intent(this, ObtainPressureActivity.class));
-                return true;
-            case R.id.record:
-                return true;
-            case R.id.statistics:
-                return true;
-            case R.id.settings:
-                return true;
-            case R.id.close_session:
-                startActivity(new Intent(this, MainActivity.class));
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
+        return MenuActions.options(this,item);
     }
 
     public void obtain(View view) {
@@ -54,7 +39,7 @@ public class ObtainPressureActivity extends AppCompatActivity {
         new Thread() {
             public void run() {
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

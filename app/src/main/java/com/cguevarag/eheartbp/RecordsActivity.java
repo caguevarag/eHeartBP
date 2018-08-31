@@ -1,17 +1,16 @@
 package com.cguevarag.eheartbp;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class ViewMeasurementActivity extends AppCompatActivity {
+public class RecordsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_measurement);
+        setContentView(R.layout.activity_records);
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
 

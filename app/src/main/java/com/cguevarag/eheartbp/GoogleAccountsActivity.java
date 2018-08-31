@@ -8,13 +8,16 @@ import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.widget.Button;
 
 public class GoogleAccountsActivity extends Activity {
+    Button b;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pop_window);
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -22,10 +25,11 @@ public class GoogleAccountsActivity extends Activity {
         int h = dm.heightPixels;
         getWindow().setLayout((int) (w * .7), (int) (h * .7));
 
+        b=findViewById(R.id.accountButton);
     }
 
     public void login2(View view) {
-        startActivity(new Intent(GoogleAccountsActivity.this, ObtainPressureActivity.class));
+        b.setBackgroundColor(Color.argb(30,0,0,0));
 
         new Thread() {
             public void run() {
@@ -36,7 +40,7 @@ public class GoogleAccountsActivity extends Activity {
                 }
                 startActivity(new Intent(GoogleAccountsActivity.this, ObtainPressureActivity.class));
             }
-        };
+        }.start();
     }
 
 }

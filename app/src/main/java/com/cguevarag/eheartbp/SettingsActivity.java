@@ -1,17 +1,17 @@
 package com.cguevarag.eheartbp;
 
-import android.content.Intent;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class ViewMeasurementActivity extends AppCompatActivity {
+public class SettingsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_measurement);
+        setContentView(R.layout.activity_settings);
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
 
@@ -25,4 +25,6 @@ public class ViewMeasurementActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         return MenuActions.options(this, item);
     }
+
+
 }

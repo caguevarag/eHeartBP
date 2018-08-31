@@ -27,6 +27,9 @@
             android:name=".GoogleAccountsActivity"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity android:name=".ViewMeasurementActivity" />
+        <activity android:name=".StatisticsActivity" />
+        <activity android:name=".RecordsActivity" />
+        <activity android:name=".SettingsActivity"></activity>
     </application>
 
 </manifest>
