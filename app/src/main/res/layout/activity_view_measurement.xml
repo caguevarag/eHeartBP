@@ -138,7 +138,25 @@
         app:srcCompat="@drawable/geoposicion" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editPul"
+        android:layout_width="85dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="230dp"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:inputType="number"
+        android:selectAllOnFocus="false"
+        android:text="66"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4" />
+
+    <EditText
+        android:id="@+id/editDia"
         android:layout_width="85dp"
         android:layout_height="67dp"
         android:layout_marginBottom="24dp"
@@ -156,7 +174,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView4" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editSys"
         android:layout_width="85dp"
         android:layout_height="67dp"
         android:layout_marginBottom="24dp"
@@ -172,22 +190,5 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4" />
 
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="85dp"
-        android:layout_height="67dp"
-        android:layout_marginBottom="24dp"
-        android:layout_marginStart="230dp"
-        android:cursorVisible="false"
-        android:ems="10"
-        android:fontFamily="@font/roboto_medium"
-        android:inputType="number"
-        android:selectAllOnFocus="false"
-        android:text="66"
-        android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
-        app:layout_constraintStart_toStartOf="@+id/imageView4" />
 
 </android.support.constraint.ConstraintLayout>
