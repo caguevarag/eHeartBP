@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/fb_google_login" />
+        app:srcCompat="@drawable/fb_google_login_es" />
 
     <EditText
         android:id="@+id/editText"
@@ -74,6 +74,7 @@
         android:layout_marginTop="24dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/montserrat"
+        android:padding="8dp"
         android:text="@string/sign_in"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"

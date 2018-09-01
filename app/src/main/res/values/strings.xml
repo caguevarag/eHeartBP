@@ -17,4 +17,5 @@
     <string name="contacts">Contacts</string>
     <string name="alerts">Alerts</string>
     <string name="device">Device</string>
+    <string name="date">Fecha</string>
 </resources>

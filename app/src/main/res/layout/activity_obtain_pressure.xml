@@ -52,7 +52,7 @@
         android:background="?attr/colorAccent"
         android:fontFamily="@font/montserrat"
         android:onClick="obtain"
-        android:padding="5dp"
+        android:padding="8dp"
         android:text="@string/obtain"
         android:textColor="@android:color/white"
         android:textSize="18sp"

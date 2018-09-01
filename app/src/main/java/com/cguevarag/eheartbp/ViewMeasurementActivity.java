@@ -21,7 +21,9 @@ public class ViewMeasurementActivity extends AppCompatActivity {
         listener = new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                validateInput(v);
+                Globals.sys = fields[0].getText().toString();
+                Globals.dia = fields[1].getText().toString();
+                Globals.pul = fields[2].getText().toString();
             }
         };
 
@@ -36,12 +38,6 @@ public class ViewMeasurementActivity extends AppCompatActivity {
 
         for (EditText f : fields)
             f.setOnFocusChangeListener(listener);
-    }
-
-    private void validateInput(View v) {
-        Globals.sys = fields[0].getText().toString();
-        Globals.dia = fields[1].getText().toString();
-        Globals.pul = fields[2].getText().toString();
     }
 
     @Override
